@@ -8,6 +8,9 @@ public class Main {
         window.setResizable(false);
         window.setTitle("RunePlace");
 
+        GamePanel gamePanel = new GamePanel();
+        window.add(gamePanel);
+
         window.setLocationRelativeTo(null);
         window.setVisible(true);
     }

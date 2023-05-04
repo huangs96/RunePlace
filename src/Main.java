@@ -8,11 +8,15 @@ public class Main {
         window.setResizable(false);
         window.setTitle("RunePlace");
 
+        //instantiating new game panel object
         GamePanel gamePanel = new GamePanel();
+        //adding game panel settings to window and opening game panel
         window.add(gamePanel);
         window.pack();
 
         window.setLocationRelativeTo(null);
         window.setVisible(true);
+
+        gamePanel.startGameThread();
     }
 }

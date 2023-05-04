@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="writing update player method when key is pressed">
+    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="key input is cached by key handler">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683238818174</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="key input is cached by key handler">
+      <created>1683239493228</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683239493228</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +146,7 @@
     <MESSAGE value="creating KeyHandler class to listen to key strokes" />
     <MESSAGE value="set up WASD keys for movement" />
     <MESSAGE value="writing update player method when key is pressed" />
-    <option name="LAST_COMMIT_MESSAGE" value="writing update player method when key is pressed" />
+    <MESSAGE value="key input is cached by key handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="key input is cached by key handler" />
   </component>
 </project>

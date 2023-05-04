@@ -1,5 +1,6 @@
 import javax.swing.JPanel;
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Dimension;
 
 public class GamePanel extends JPanel {
     // SCREEN SETTINGS

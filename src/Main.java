@@ -5,5 +5,10 @@ public class Main {
 
         JFrame window = new Jframe();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setResizable(false);
+        window.setTitle("RunePlace");
+
+        window.setLocationRelativeTo(null);
+        window.setVisible(true);
     }
 }

@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="package and class Entity created to store NPC, Player, and Enemy">
-      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="deleted sysoutlnprint in key handler">
+      <change afterPath="$PROJECT_DIR$/misc/Archive.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charDown1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charDown2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charDown3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charRight1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charRight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charRight3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charUp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charUp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/charUp3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KeyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683258343349</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="separated draw and update method logic to player class, and instantiating player in Game Panel">
+      <created>1683277218426</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683277218426</updated>
+    </task>
+    <task id="LOCAL-00018" summary="deleted sysoutlnprint in key handler">
+      <created>1683277312529</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683277312529</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +221,8 @@
     <MESSAGE value="rectangle now moves" />
     <MESSAGE value="remove println" />
     <MESSAGE value="package and class Entity created to store NPC, Player, and Enemy" />
-    <option name="LAST_COMMIT_MESSAGE" value="package and class Entity created to store NPC, Player, and Enemy" />
+    <MESSAGE value="separated draw and update method logic to player class, and instantiating player in Game Panel" />
+    <MESSAGE value="deleted sysoutlnprint in key handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted sysoutlnprint in key handler" />
   </component>
 </project>

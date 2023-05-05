@@ -6,7 +6,7 @@ public class KeyHandler implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-
+        System.out.println("clicked");
     }
 
     @Override
@@ -18,12 +18,15 @@ public class KeyHandler implements KeyListener {
             upPressed = true;
         }
         if (code == KeyEvent.VK_A) {
+            System.out.println("clicked");
             leftPressed = true;
         }
         if (code == KeyEvent.VK_S) {
+            System.out.println("clicked");
             downPressed = true;
         }
         if (code == KeyEvent.VK_D) {
+            System.out.println("clicked");
             rightPressed = true;
         }
     }
@@ -32,6 +35,7 @@ public class KeyHandler implements KeyListener {
     public void keyReleased(KeyEvent e) {
         int code = e.getKeyCode();
         if (code == KeyEvent.VK_W) {
+            System.out.println("clicked");
             upPressed = false;
         }
         if (code == KeyEvent.VK_A) {

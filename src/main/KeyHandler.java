@@ -20,15 +20,12 @@ public class KeyHandler implements KeyListener {
             upPressed = true;
         }
         if (code == KeyEvent.VK_A) {
-            System.out.println("clicked");
             leftPressed = true;
         }
         if (code == KeyEvent.VK_S) {
-            System.out.println("clicked");
             downPressed = true;
         }
         if (code == KeyEvent.VK_D) {
-            System.out.println("clicked");
             rightPressed = true;
         }
     }

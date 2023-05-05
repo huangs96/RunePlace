@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="created switch statement for image">
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charDown1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charDown2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charDown3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charLeft1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charLeft2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charLeft3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charRight1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charRight2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charRight3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charUp1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charUp2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/charImgs/charUp3.png" afterDir="false" />
+    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="images now are displaying in java window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunePlace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RunePlace.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charDown1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charDown2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charDown3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charLeft1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charLeft3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charRight1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charRight3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charUp1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charUp2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/charImg/charUp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2PLQhcmwjjhv7WFTHXYsva2ihjy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -238,8 +217,26 @@
       <option name="project" value="LOCAL" />
       <updated>1683323222130</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="images now are displaying in java window">
+      <created>1683324908470</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683324908470</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -265,6 +262,7 @@
     <MESSAGE value="default char direction to down" />
     <MESSAGE value="change char direction when movement key is pressed" />
     <MESSAGE value="created switch statement for image" />
-    <option name="LAST_COMMIT_MESSAGE" value="created switch statement for image" />
+    <MESSAGE value="images now are displaying in java window" />
+    <option name="LAST_COMMIT_MESSAGE" value="images now are displaying in java window" />
   </component>
 </project>

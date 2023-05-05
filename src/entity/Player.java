@@ -7,6 +7,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.Objects;
 
 
 public class Player extends Entity {
@@ -18,29 +19,30 @@ public class Player extends Entity {
           this.keyH = keyH;
 
           setDefaultValues();
+          getPlayerImg();
      }
 
      public void setDefaultValues() {
           x = 100;
           y = 100;
           speed = 4;
-          direction = "down";
+          direction = "up";
      }
 
      public void getPlayerImg() {
           try {
-               up1 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charUp1.png"));
-               up2 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charUp2.png"));
-               up3 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charUp3.png"));
-               down1 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charDown1.png"));
-               down2 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charDown2.png"));
-               down3 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charDown3.png"));
-               right1 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charRight1.png"));
-               right2 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charRight2.png"));
-               right3 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charRight3.png"));
-               left1 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charLeft1.png"));
-               left2 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charLeft2.png"));
-               left3 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charLeft3.png"));
+               up1 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charUp1.png")));
+               up2 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charUp2.png")));
+               up3 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charUp3.png")));
+               down1 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charDown1.png")));
+               down2 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charDown2.png")));
+               down3 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charDown3.png")));
+               right1 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charRight1.png")));
+               right2 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charRight2.png")));
+               right3 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charRight3.png")));
+               left1 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charLeft1.png")));
+               left2 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charLeft2.png")));
+               left3 = ImageIO.read((getClass().getResourceAsStream("/charImgs/charLeft3.png")));
           } catch(IOException e) {
                e.printStackTrace();
           }
@@ -66,8 +68,6 @@ public class Player extends Entity {
      }
 
      public void draw (Graphics2D g2) {
-//          g2.setColor(Color.white);
-//          g2.fillRect(x, y, gp.tileSize, gp.tileSize);
           BufferedImage image = null;
 
           switch(direction) {
@@ -84,5 +84,7 @@ public class Player extends Entity {
                     image = left1;
                     break;
           }
+
+          g2.drawImage(image, x, y, gp.tileSize, gp.tileSize, null);
      }
 }

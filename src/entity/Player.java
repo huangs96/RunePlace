@@ -5,6 +5,7 @@ import main.KeyHandler;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 
@@ -65,7 +66,23 @@ public class Player extends Entity {
      }
 
      public void draw (Graphics2D g2) {
-          g2.setColor(Color.white);
-          g2.fillRect(x, y, gp.tileSize, gp.tileSize);
+//          g2.setColor(Color.white);
+//          g2.fillRect(x, y, gp.tileSize, gp.tileSize);
+          BufferedImage image = null;
+
+          switch(direction) {
+               case "up":
+                    image = up1;
+                    break;
+               case "down":
+                    image = down1;
+                    break;
+               case "right":
+                    image = right1;
+                    break;
+               case "left":
+                    image = left1;
+                    break;
+          }
      }
 }

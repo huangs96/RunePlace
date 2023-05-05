@@ -2,7 +2,10 @@ package entity;
 
 import main.GamePanel;
 import main.KeyHandler;
+
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.io.IOException;
 
 
 public class Player extends Entity {
@@ -20,6 +23,25 @@ public class Player extends Entity {
           x = 100;
           y = 100;
           speed = 4;
+     }
+
+     public void getPlayerImg() {
+          try {
+               up1 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charUp1.png"));
+               up2 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charUp2.png"));
+               up3 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charUp3.png"));
+               down1 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charDown1.png"));
+               down2 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charDown2.png"));
+               down3 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charDown3.png"));
+               right1 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charRight1.png"));
+               right2 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charRight2.png"));
+               right3 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charRight3.png"));
+               left1 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charLeft1.png"));
+               left2 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charLeft2.png"));
+               left3 = ImageIO.read(getClass().getResourceAsStream("src/charImg/charLeft3.png"));
+          } catch(IOException e) {
+               e.printStackTrace();
+          }
      }
 
      public void update() {

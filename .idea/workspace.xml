@@ -4,33 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="deleted sysoutlnprint in key handler">
-      <change afterPath="$PROJECT_DIR$/misc/Archive.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy 9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01 2 copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/Archive/char_a_p1_0bas_humn_v01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charDown1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charDown2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charDown3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charLeft1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charLeft2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charLeft3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charRight1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charRight2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charRight3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charUp1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charUp2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/charUp3.png" afterDir="false" />
+    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="imported character sprite and renamed to match direction faced">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charDown1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charDown1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charDown2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charDown2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charDown3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charDown3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charLeft1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charLeft1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charLeft2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charLeft2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charLeft3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charLeft3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charRight1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charRight1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charRight2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charRight2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charRight3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charRight3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charUp1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charUp1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charUp2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charUp2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/charUp3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/charImg/charUp3.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +47,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-20"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -201,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683277312529</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="imported character sprite and renamed to match direction faced">
+      <created>1683319109368</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683319109368</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +220,7 @@
     <MESSAGE value="package and class Entity created to store NPC, Player, and Enemy" />
     <MESSAGE value="separated draw and update method logic to player class, and instantiating player in Game Panel" />
     <MESSAGE value="deleted sysoutlnprint in key handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted sysoutlnprint in key handler" />
+    <MESSAGE value="imported character sprite and renamed to match direction faced" />
+    <option name="LAST_COMMIT_MESSAGE" value="imported character sprite and renamed to match direction faced" />
   </component>
 </project>

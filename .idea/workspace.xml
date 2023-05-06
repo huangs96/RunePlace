@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="changed variables in GamePanel to public">
-      <change afterPath="$PROJECT_DIR$/res/maps/map1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="uploaded map1 to resources folder">
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683353017216</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="uploaded map1 to resources folder">
+      <created>1683355749091</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1683355749091</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +302,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Java JFrame opens" />
     <MESSAGE value="created update method and subclass paintComponent for in-game characters" />
     <MESSAGE value="creating KeyHandler class to listen to key strokes" />
     <MESSAGE value="set up WASD keys for movement" />
@@ -323,6 +326,7 @@
     <MESSAGE value="test tile works" />
     <MESSAGE value="instantiated variables for automating the mapping process for tiles" />
     <MESSAGE value="changed variables in GamePanel to public" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed variables in GamePanel to public" />
+    <MESSAGE value="uploaded map1 to resources folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploaded map1 to resources folder" />
   </component>
 </project>

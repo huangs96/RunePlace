@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="creating getTileImage method to pull tile from resources">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="test tile works" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683343617397</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="drawing stone tile for testing">
+      <created>1683351115114</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1683351115114</updated>
+    </task>
+    <task id="LOCAL-00030" summary="test tile works">
+      <created>1683351291161</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1683351291161</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,8 +278,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="importing JFrame for 2d game" />
-    <MESSAGE value="jFrame for main set up" />
     <MESSAGE value="creating game panel class" />
     <MESSAGE value="adding JPanel extension class to main class" />
     <MESSAGE value="Java JFrame opens" />
@@ -293,6 +301,8 @@
     <MESSAGE value="adding character animation through sprite counter" />
     <MESSAGE value="animation complete. Working on static tiles" />
     <MESSAGE value="creating getTileImage method to pull tile from resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating getTileImage method to pull tile from resources" />
+    <MESSAGE value="drawing stone tile for testing" />
+    <MESSAGE value="test tile works" />
+    <option name="LAST_COMMIT_MESSAGE" value="test tile works" />
   </component>
 </project>

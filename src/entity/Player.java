@@ -12,6 +12,7 @@ import java.io.IOException;
 public class Player extends Entity {
      GamePanel gp;
      KeyHandler keyH;
+     boolean animation = false;
 
      public Player(GamePanel gp, KeyHandler keyH) {
           this.gp = gp;
@@ -25,7 +26,7 @@ public class Player extends Entity {
           x = 100;
           y = 100;
           speed = 4;
-          direction = "up";
+          direction = "down";
      }
 
      public void getPlayerImg() {
@@ -51,22 +52,37 @@ public class Player extends Entity {
           if(keyH.upPressed) {
                direction = "up";
                y -= speed; // same as 'playerY = playerY - playerSpeed'
+               animation = true;
           }
           else if (keyH.downPressed) {
                direction = "down";
                y += speed;
+               animation = true;
           }
           else if (keyH.leftPressed) {
                direction = "left";
                x -= speed;
+               animation = true;
           }
           else if (keyH.rightPressed) {
                direction = "right";
                x += speed;
+               animation = true;
           }
+
+          System.out.println("spriteNum1 = " + spriteNum);
           //counter for char animation
           spriteCounter++;
-
+          if(spriteCounter > 20 && animation) {
+               if(spriteNum == 2) {
+                    spriteNum = 3;
+               }
+               else if(spriteNum == 3) {
+                    spriteNum = 2;
+               }
+          spriteCounter = 0;
+          }
+          System.out.println("spriteNum2 = " + spriteNum);
      }
 
      public void draw (Graphics2D g2) {

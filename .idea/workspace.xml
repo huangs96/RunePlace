@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="images now are displaying in java window">
+    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="animation complete. Working on static tiles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683324908470</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="adding character animation through sprite counter">
+      <created>1683325573777</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683325573777</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +270,8 @@
     <MESSAGE value="change char direction when movement key is pressed" />
     <MESSAGE value="created switch statement for image" />
     <MESSAGE value="images now are displaying in java window" />
-    <option name="LAST_COMMIT_MESSAGE" value="images now are displaying in java window" />
+    <MESSAGE value="adding character animation through sprite counter" />
+    <MESSAGE value="animation complete. Working on static tiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="animation complete. Working on static tiles" />
   </component>
 </project>

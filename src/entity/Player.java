@@ -69,6 +69,9 @@ public class Player extends Entity {
                x += speed;
                animation = true;
           }
+          else {
+               animation = false;
+          }
 
           System.out.println("spriteNum1 = " + spriteNum);
           //counter for char animation

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="test tile works" />
+    <list default="true" id="100dd64d-6c06-46ab-b122-48102f3bc2ce" name="Changes" comment="instantiated variables for automating the mapping process for tiles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683351291161</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="instantiated variables for automating the mapping process for tiles">
+      <created>1683352715129</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1683352715129</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +289,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating game panel class" />
     <MESSAGE value="adding JPanel extension class to main class" />
     <MESSAGE value="Java JFrame opens" />
     <MESSAGE value="created update method and subclass paintComponent for in-game characters" />
@@ -303,6 +313,7 @@
     <MESSAGE value="creating getTileImage method to pull tile from resources" />
     <MESSAGE value="drawing stone tile for testing" />
     <MESSAGE value="test tile works" />
-    <option name="LAST_COMMIT_MESSAGE" value="test tile works" />
+    <MESSAGE value="instantiated variables for automating the mapping process for tiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="instantiated variables for automating the mapping process for tiles" />
   </component>
 </project>

@@ -3,6 +3,7 @@ package main;
 import javax.swing.JPanel;
 import java.awt.*;
 import entity.Player;
+import tile.TileManager;
 
 public class GamePanel extends JPanel implements Runnable {
     // SCREEN SETTINGS
@@ -19,6 +20,7 @@ public class GamePanel extends JPanel implements Runnable {
     KeyHandler keyH = new KeyHandler();
     Thread gameThread; //automatically calls run method
     Player player = new Player(this, keyH );
+    TileManager tileM = new TileManager(this);
 
     //set char default position
 
@@ -74,6 +76,7 @@ public class GamePanel extends JPanel implements Runnable {
         Graphics2D g2 = (Graphics2D)g;
 
         player.draw(g2);
+        tileM.draw(g2);
         //Dispose graphic and release any system resources to save memory
         g2.dispose();
     }
